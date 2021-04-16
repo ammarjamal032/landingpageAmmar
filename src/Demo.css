@@ -1,0 +1,19 @@
+.head1{
+    position: relative;
+    
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+}
+
+.head1 h1{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+}
+
+.head2 {
+        position: absolute;
+        left: 500px;
+        top :1200px;
+}
