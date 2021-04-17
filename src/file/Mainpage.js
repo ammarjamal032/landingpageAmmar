@@ -13,7 +13,7 @@ const  Mainpage =() =>{
     return(
             <div>
             <div className="alrt">
-                <h1 className="tc">Covid-19</h1>
+                <a className="tc" href='https://www.mygov.in/covid-19/'>Covid-19</a>
                 <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions.
                     Follow advice provided by your local health authority.</p>
             </div>

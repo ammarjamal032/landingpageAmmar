@@ -6,16 +6,37 @@
     margin: 10px;
     padding: 10px;
 } */
-.alrt{
+/* .alrt{
+    POSITION: RELATIVE;
+    left: 425px;
     width: 500px;
-    height: 120px;
+    height: 120px; 
+    
 
+}*/
+.alrt a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
 }
+h1{
+    color: blueviolet;
+}
+h1:hover{
+    cursor: pointer;
+}
+
 .alrt p{
     
-    font-size: 20px; 
+    font-size: 24px; 
     text-align: center;
-    margin: auto;
+    margin: 15px;
     text-align: justify;
     
 }
