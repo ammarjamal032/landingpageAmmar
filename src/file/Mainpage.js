@@ -1,5 +1,4 @@
 import React from "react";
-import tachyons from 'tachyons';
 import './Mainpage.css';
 import img1 from '../Image/patient.png';
 import img2 from '../Image/social-distancing.png';
