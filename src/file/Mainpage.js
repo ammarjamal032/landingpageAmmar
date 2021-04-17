@@ -25,7 +25,7 @@ const  Mainpage =() =>{
                 </div>
                 <div className="subpage grow">
                 <img src={img3} alt='mask'/>
-                <h1>Wash Your Frequently</h1>
+                <h1>Wash Your Hand Frequently</h1>
                 </div>
                 <div className="subpage grow">
                 <img src={img4} alt='mask'/>
