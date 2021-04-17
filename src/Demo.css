@@ -1,19 +1,29 @@
-.head1{
-    position: relative;
-    
-    background-color: aqua;
-    width: 400px;
-    height: 400px;
+
+.main1 h1{
+    text-align: center;
 }
 
-.head1 h1{
-    position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200px;
+
+.button{
+display: flex;
+justify-content: center;
 }
 
-.head2 {
-        position: absolute;
-        left: 500px;
-        top :1200px;
-}
+
+
+
+.main1 .myButton {
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:25px;
+	border:1px solid #a511c0;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}      

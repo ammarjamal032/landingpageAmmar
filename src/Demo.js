@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './Demo.css';
+import tachyons from 'tachyons';
+import Avtar from './Avtar';
+
 
 const Demo =() => {
-    return(<div>
-        <div class="head1">
-        <h1> Hello world</h1>
-        <p> Hi this is JAMAL Here... </p>
-        <p>I'm web developer</p>
-        
-        <div class="head2">
-            <p> Hi this is AMMAR JAMAL Here... </p>
+    return(<div className="main1">
+            <h1> Welcome to My Page..</h1>
+                <Avtar id='1' name="AMMAR" work="Web Developer"/>
+               <div className="button">
+                <a href="https://main.d3q1au4ui2khq.amplifyapp.com/" className="myButton grow">Click Here</a>
+                </div>
             </div>
-        </div>
-        </div>
-        );
+        )
 }
 
 

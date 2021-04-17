@@ -1,0 +1,25 @@
+.imgstyle {
+
+  
+    float: left;
+    background-color: blueviolet;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+
+}
+.box1{
+    display: flex;
+    justify-content : center;
+}
+
+
+.imgstyle h1{
+    text-align: center;
+}
+
+.imgstyle p{
+    text-align: center;
+}
