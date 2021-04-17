@@ -1,0 +1,38 @@
+/* .mainpage1{
+    display: flex;
+    justify-content: center;
+    width: 1330px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+} */
+.mainpage1 text{
+    font-size: 20px; 
+    text-align: center;
+    margin: auto;
+    
+}
+.subpage{
+    
+    float: left;
+    width: 300px;
+    height: 400px;
+    border: solid 2px;
+    border-color: darkmagenta;  
+    border-radius: 25px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px;
+    
+    
+}
+.subpage img{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+}
+.subpage h1{
+    text-align: center;
+}

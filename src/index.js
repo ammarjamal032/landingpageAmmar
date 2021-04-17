@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Demo from './Demo';
+import Mainpage from './file/Mainpage';
 
 
-ReactDOM.render(
-                <Demo/>,document.getElementById('root')
+ReactDOM.render(<div>
+                <Demo/>
+                <Mainpage/>
+                </div>
+                ,document.getElementById('root')
 );
 
 
