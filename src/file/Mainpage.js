@@ -17,7 +17,7 @@ const  Mainpage =() =>{
             Follow advice provided by your local health authority.</text>
             <div className="subpage grow">
                 <img src={img1} alt='mask'/>
-                <h1>Always Ware Mask</h1>
+                <h1>Always Wear Mask</h1>
                 </div>
                 <div className="subpage grow">
                 <img src={img2} alt='mask'/>
