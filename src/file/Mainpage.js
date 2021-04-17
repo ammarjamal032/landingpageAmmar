@@ -11,10 +11,14 @@ import img4 from '../Image/home.png';
 
 const  Mainpage =() =>{
     return(
-        <div className="mainpage1">
-            <h1 className="tc">Covid-19</h1>
-            <text>Protect yourself and others around you by knowing the facts and taking appropriate precautions.
-            Follow advice provided by your local health authority.</text>
+            <div>
+            <div className="alrt">
+                <h1 className="tc">Covid-19</h1>
+                <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions.
+                    Follow advice provided by your local health authority.</p>
+            </div>
+       <div className="mainpage1">
+           
             <div className="subpage grow">
                 <img src={img1} alt='mask'/>
                 <h1>Always Wear Mask</h1>
@@ -32,6 +36,7 @@ const  Mainpage =() =>{
                 <h1>Stay Home! Stay Safe!</h1>
                 </div>
 
+        </div>
         </div>
     )
 
